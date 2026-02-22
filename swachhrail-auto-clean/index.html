@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SwachhRail Auto-Clean</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <h1>SwachhRail Auto-Clean</h1>
+            <p class="subtitle">HWH-NDLS Rajdhani - Coach Dashboard</p>
+        </header>
+        
+        <main class="dashboard">
+            <!-- Unit A1 -->
+            <div class="unit-card" id="unit-a1">
+                <div class="unit-header">
+                    <h2>Unit A1</h2>
+                    <span class="status-text text-red">Needs Cleaning</span>
+                </div>
+                <div class="led-container">
+                    <div class="led ring-red" id="led-a1"></div>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-bar" id="progress-a1"></div>
+                </div>
+                <button class="activate-btn" onclick="activateAutoClean('a1')" id="btn-a1">ACTIVATE AUTO-CLEAN</button>
+            </div>
+
+            <!-- Unit A2 -->
+            <div class="unit-card" id="unit-a2">
+                <div class="unit-header">
+                    <h2>Unit A2</h2>
+                    <span class="status-text text-red">Needs Cleaning</span>
+                </div>
+                <div class="led-container">
+                    <div class="led ring-red" id="led-a2"></div>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-bar" id="progress-a2"></div>
+                </div>
+                <button class="activate-btn" onclick="activateAutoClean('a2')" id="btn-a2">ACTIVATE AUTO-CLEAN</button>
+            </div>
+
+            <!-- Unit B1 -->
+            <div class="unit-card" id="unit-b1">
+                <div class="unit-header">
+                    <h2>Unit B1</h2>
+                    <span class="status-text text-red">Needs Cleaning</span>
+                </div>
+                <div class="led-container">
+                    <div class="led ring-red" id="led-b1"></div>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-bar" id="progress-b1"></div>
+                </div>
+                <button class="activate-btn" onclick="activateAutoClean('b1')" id="btn-b1">ACTIVATE AUTO-CLEAN</button>
+            </div>
+
+            <!-- Unit B2 -->
+            <div class="unit-card" id="unit-b2">
+                <div class="unit-header">
+                    <h2>Unit B2</h2>
+                    <span class="status-text text-red">Needs Cleaning</span>
+                </div>
+                <div class="led-container">
+                    <div class="led ring-red" id="led-b2"></div>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-bar" id="progress-b2"></div>
+                </div>
+                <button class="activate-btn" onclick="activateAutoClean('b2')" id="btn-b2">ACTIVATE AUTO-CLEAN</button>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
